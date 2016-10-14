@@ -6,13 +6,13 @@ import com.epam.alex.Weaponry;
  * Created by user on 12.10.2016.
  */
 public class WeaponryTechnique extends Weaponry {
-    String name;
-    float purchasePrice;
-    float sellingPrice;
-    String OriginCountry;
-    int length;
-    int width;
-    int height;
-    int weight;
+    private String name;
+    private float purchasePrice;
+    private float sellingPrice;
+    private String OriginCountry;
+    private int length;
+    private int width;
+    private int height;
+    private int weight;
 
 }
