@@ -9,6 +9,7 @@ public class WeaponryTechnique extends Weaponry {
     String name;
     float purchasePrice;
     float sellingPrice;
+    String OriginCountry;
     int length;
     int width;
     int height;
