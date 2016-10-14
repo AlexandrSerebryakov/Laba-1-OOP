@@ -7,6 +7,7 @@ import com.epam.alex.Weaponry;
  */
 public class WeaponryTechnique extends Weaponry {
     private String name;
+    private boolean lobby;
     private float purchasePrice;
     private float sellingPrice;
     private String OriginCountry;
