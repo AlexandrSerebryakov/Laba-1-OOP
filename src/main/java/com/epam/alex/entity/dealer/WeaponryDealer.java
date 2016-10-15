@@ -1,4 +1,4 @@
-package com.epam.alex.weaponry.dealer;
+package com.epam.alex.entity.dealer;
 
 import com.epam.alex.Weaponry;
 

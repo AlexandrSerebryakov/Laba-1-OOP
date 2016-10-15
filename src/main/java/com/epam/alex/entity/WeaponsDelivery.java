@@ -1,4 +1,4 @@
-package com.epam.alex.weaponry;
+package com.epam.alex.entity;
 
 /**
  * Created by user on 14.10.2016.
