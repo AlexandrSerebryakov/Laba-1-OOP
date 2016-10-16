@@ -9,17 +9,17 @@ public class WeaponsDelivery {
     private String vendorCode;
     private boolean lobby;
     private String currency;
-    private int cost;
+    private double cost;
     private String originCountry;
-    private int length;
-    private int width;
-    private int height;
-    private int weight;
+    private double length;
+    private double width;
+    private double height;
+    private double weight;
 
 
 
     public WeaponsDelivery(int idNumber, String name, String vendorCode, boolean lobby, String currency,
-                           int cost, String originCountry, int length, int width, int height, int weight) {
+                           int cost, String originCountry, double length, double width, double height, double weight) {
         this.idNumber = idNumber;
         this.name = name;
         this.vendorCode = vendorCode;
