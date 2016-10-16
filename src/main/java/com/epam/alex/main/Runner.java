@@ -7,7 +7,6 @@ import com.epam.alex.service.WeaponryDealer;
  */
 public class Runner {
     public static void main(String[] args) {
-        System.out.println("Bla-bla-bla");
         WeaponryDealer weaponryDealer = new WeaponryDealer();
 
     }
