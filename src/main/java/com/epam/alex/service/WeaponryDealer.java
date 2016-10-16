@@ -10,7 +10,6 @@ import java.util.List;
  */
 public class WeaponryDealer {
 
-    /*WeaponsDelivery weaponsDelivery = new WeaponsDelivery();*/
     private List<WeaponsDelivery> technique;
     private String name;
 
