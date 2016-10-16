@@ -14,6 +14,10 @@ public class WeaponryDealer {
     private List<Weaponry> weaponsDeliveries;
 
 
+    public List<Weaponry> getWeaponsDeliveries() {
+        return weaponsDeliveries;
+    }
+
     public WeaponryDealer() {
         List<Weaponry> weaponsDeliveries = new ArrayList<>();
         weaponsDeliveries.addAll(Arrays.asList(new Weaponry("1", "Tank", "T123", "YES", "USD", "120000", "USA", "3.24", "2.34", "7.33", "6300"),
