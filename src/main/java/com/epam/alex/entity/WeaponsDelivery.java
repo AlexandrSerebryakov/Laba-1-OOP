@@ -17,6 +17,49 @@ public class WeaponsDelivery {
     private double weight;
 
 
+    public int getIdNumber() {
+        return idNumber;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getVendorCode() {
+        return vendorCode;
+    }
+
+    public boolean isLobby() {
+        return lobby;
+    }
+
+    public String getCurrency() {
+        return currency;
+    }
+
+    public double getCost() {
+        return cost;
+    }
+
+    public String getOriginCountry() {
+        return originCountry;
+    }
+
+    public double getLength() {
+        return length;
+    }
+
+    public double getWidth() {
+        return width;
+    }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public double getWeight() {
+        return weight;
+    }
 
     public WeaponsDelivery(int idNumber, String name, String vendorCode, boolean lobby, String currency,
                            int cost, String originCountry, double length, double width, double height, double weight) {
