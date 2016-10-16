@@ -3,7 +3,7 @@ package com.epam.alex.entity;
 /**
  * Created by user on 12.10.2016.
  */
-public abstract class Weaponry extends WeaponsDelivery {
+public class Weaponry extends WeaponsDelivery {
     private int idNumber;
     private String name;
     private String vendorCode;
@@ -15,6 +15,9 @@ public abstract class Weaponry extends WeaponsDelivery {
     private double width;
     private double height;
     private double weight;
+
+    public Weaponry(String idNumber, String name, String vendorCode, String s1, String currency, String s2, String originCountry, String s3, String s4, String s5, String s6) {
+    }
 
 
     public int getIdNumber() {
