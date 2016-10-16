@@ -21,10 +21,10 @@ public class WeaponryDealer {
 
     public List<WeaponsDelivery> getWeaponsDelivery(){
 
-        List<WeaponsDelivery> vehicles = new ArrayList<>();
-        vehicles.addAll(technique);
+        List<WeaponsDelivery> weaponsDeliveries = new ArrayList<>();
+        weaponsDeliveries.addAll(technique);
 
-        return vehicles;
+        return weaponsDeliveries;
     }
 
     public String getName() {
