@@ -2,7 +2,6 @@ package com.epam.alex.service;
 
 import com.epam.alex.entity.WeaponsDelivery;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -11,13 +10,13 @@ import java.util.List;
 public class WeaponryDealer {
 
     /*private List<WeaponsDelivery> technique;*/
-    private String name;
+    /*private String name;*/
+    private List<WeaponsDelivery> weaponsDeliveries;
 
-
-    public WeaponryDealer(String name) {
+    /*public WeaponryDealer(String name) {
         technique = new ArrayList<WeaponsDelivery>();
         this.name = name;
-    }
+    }*/
 
     /*public List<WeaponsDelivery> getWeaponsDelivery(){
 
@@ -39,8 +38,8 @@ public class WeaponryDealer {
         return technique;
     }*/
 
-    List<WeaponsDelivery> technique = new ArrayList<>();
+    /*List<WeaponsDelivery> technique = new ArrayList<>();
 
 
-    WeaponsDeliveries weaponsDeliveries = new WeaponsDelivery("1", "To Syria", "", "", "", "", "", "", "", "", "");
+    WeaponsDeliveries weaponsDeliveries = new WeaponsDelivery("1", "To Syria", "", "", "", "", "", "", "", "", "");*/
 }
