@@ -15,4 +15,19 @@ public class WeaponsDelivery {
     private int width;
     private int height;
     private int weight;
+
+    public WeaponsDelivery(int id, String name, String vendorCode, boolean lobby, float purchasePrice,
+                           float sellingPrice, String originCountry, int length, int width, int height, int weight) {
+        this.id = id;
+        this.name = name;
+        this.vendorCode = vendorCode;
+        this.lobby = lobby;
+        this.purchasePrice = purchasePrice;
+        this.sellingPrice = sellingPrice;
+        OriginCountry = originCountry;
+        this.length = length;
+        this.width = width;
+        this.height = height;
+        this.weight = weight;
+    }
 }
