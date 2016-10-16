@@ -16,7 +16,10 @@ public class WeaponryDealer {
 
     public WeaponryDealer() {
         List<Weaponry> weaponsDeliveries = new ArrayList<>();
-        weaponsDeliveries.addAll(Arrays.asList(new Weaponry("1", "Tank", "T123", "YES", "USD", "120000", "USA", "3.24", "2.34", "7.33", "6300")));
+        weaponsDeliveries.addAll(Arrays.asList(new Weaponry("1", "Tank", "T123", "YES", "USD", "120000", "USA", "3.24", "2.34", "7.33", "6300"),
+                                               new Weaponry("1", "Tank", "T123", "YES", "USD", "120000", "USA", "3.24", "2.34", "7.33", "6300"),
+                                               new Weaponry("1", "Tank", "T123", "YES", "USD", "120000", "USA", "3.24", "2.34", "7.33", "6300"),
+                new Weaponry("1", "Tank", "T123", "YES", "USD", "120000", "USA", "3.24", "2.34", "7.33", "6300")));
         {
 
 
