@@ -10,12 +10,12 @@ import java.util.List;
  */
 public class WeaponryDealer {
 
-    private List<WeaponsDelivery> technique;
+    /*private List<WeaponsDelivery> technique;*/
     private String name;
 
 
     public WeaponryDealer(String name) {
-        technique = new ArrayList<>();
+        technique = new ArrayList<WeaponsDelivery>();
         this.name = name;
     }
 
@@ -34,4 +34,13 @@ public class WeaponryDealer {
     public void setName(String name) {
         this.name = name;
     }
+
+    public List<WeaponsDelivery> getTechnique() {
+        return technique;
+    }
+
+    List<WeaponsDelivery> technique = new ArrayList<>();
+
+
+    WeaponsDeliveries weaponsDeliveries = new WeaponsDelivery("1", "To Syria", "", "", "", "", "", "", "", "", "");
 }
