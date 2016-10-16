@@ -12,4 +12,7 @@ public class WeaponryDealer {
     private List<WeaponsDelivery> weaponsDeliveries;
 
 
+    public WeaponryDealer(List<WeaponsDelivery> weaponsDeliveries) {
+        this.weaponsDeliveries = weaponsDeliveries;
+    }
 }
