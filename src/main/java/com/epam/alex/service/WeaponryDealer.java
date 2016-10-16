@@ -19,25 +19,25 @@ public class WeaponryDealer {
         this.name = name;
     }
 
-    public List<WeaponsDelivery> getWeaponsDelivery(){
+    /*public List<WeaponsDelivery> getWeaponsDelivery(){
 
         List<WeaponsDelivery> weaponsDeliveries = new ArrayList<>();
         weaponsDeliveries.addAll(technique);
 
         return weaponsDeliveries;
-    }
+    }*/
 
-    public String getName() {
+    /*public String getName() {
         return name;
     }
 
     public void setName(String name) {
         this.name = name;
-    }
+    }*/
 
-    public List<WeaponsDelivery> getTechnique() {
+    /*public List<WeaponsDelivery> getTechnique() {
         return technique;
-    }
+    }*/
 
     List<WeaponsDelivery> technique = new ArrayList<>();
 
