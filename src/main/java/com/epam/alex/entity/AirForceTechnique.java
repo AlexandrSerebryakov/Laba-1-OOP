@@ -6,7 +6,7 @@ package com.epam.alex.entity;
 public class AirForceTechnique extends WeaponryTechnique {
 
 
-    public AirForceTechnique(int idNumber, String name, String vendorCode, boolean lobby, String currency, int cost, String originCountry, double length, double width, double height, double weight) {
+    public AirForceTechnique(String idNumber, String name, String vendorCode, String lobby, String currency, String cost, String originCountry, String length, String width, String height, String weight) {
         super(idNumber, name, vendorCode, lobby, currency, cost, originCountry, length, width, height, weight);
     }
 }
