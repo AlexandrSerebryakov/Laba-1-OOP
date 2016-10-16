@@ -18,4 +18,12 @@ public class WeaponryDealer {
         technique = new ArrayList<>();
         this.name = name;
     }
+
+    public List<WeaponsDelivery> getWeaponsDelivery(){
+
+        List<WeaponsDelivery> vehicles = new ArrayList<>();
+        vehicles.addAll(technique);
+
+        return vehicles;
+    }
 }
