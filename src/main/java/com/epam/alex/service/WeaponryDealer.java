@@ -1,7 +1,8 @@
 package com.epam.alex.service;
 
-import com.epam.alex.entity.WeaponsDelivery;
+import com.epam.alex.entity.Weaponry;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -9,10 +10,13 @@ import java.util.List;
  */
 public class WeaponryDealer {
 
-    private List<WeaponsDelivery> weaponsDeliveries;
+    private List<Weaponry> weaponsDeliveries;
 
 
-    public WeaponryDealer(List<WeaponsDelivery> weaponsDeliveries) {
-        this.weaponsDeliveries = weaponsDeliveries;
+    public WeaponryDealer() {
+        weaponsDeliveries = new ArrayList<>();
     }
+
 }
+
+
