@@ -3,23 +3,22 @@ package com.epam.alex.entity;
 /**
  * Created by user on 12.10.2016.
  */
-public class Weaponry extends WeaponsDelivery {
-    private String idNumber;
+public abstract class Weaponry extends WeaponsDelivery {
+    private int idNumber;
     private String name;
     private String vendorCode;
-    private String lobby;
+    private boolean lobby;
     private String currency;
-    private String cost;
+    private double cost;
     private String originCountry;
-    private String length;
-    private String width;
-    private String height;
-    private String weight;
+    private double length;
+    private double width;
+    private double height;
+    private double weight;
 
-    /*public Weaponry(getIdNumber(), String name, String vendorCode, boolean lobby, String currency, double cost, String originCountry, double length, double width, double height, double weight ) {
-    }*/
-    public Weaponry(String idNumber, String name, String vendorCode, String lobby, String currency,
-                    String cost, String originCountry, String length, String width, String height, String weight) {
+
+    public Weaponry(int idNumber, String name, String vendorCode, boolean lobby, String currency,
+                    double cost, String originCountry, double length, double width, double height, double weight) {
         this.idNumber = idNumber;
         this.name = name;
         this.vendorCode = vendorCode;
@@ -37,7 +36,7 @@ public class Weaponry extends WeaponsDelivery {
         super();
     }*/
 
-    public String getIdNumber() {
+    public int getIdNumber() {
         return idNumber;
     }
 
@@ -49,7 +48,7 @@ public class Weaponry extends WeaponsDelivery {
         return vendorCode;
     }
 
-    public String isLobby() {
+    public boolean isLobby() {
         return lobby;
     }
 
@@ -57,7 +56,7 @@ public class Weaponry extends WeaponsDelivery {
         return currency;
     }
 
-    public String getCost() {
+    public double getCost() {
         return cost;
     }
 
@@ -65,19 +64,19 @@ public class Weaponry extends WeaponsDelivery {
         return originCountry;
     }
 
-    public String getLength() {
+    public double getLength() {
         return length;
     }
 
-    public String getWidth() {
+    public double getWidth() {
         return width;
     }
 
-    public String getHeight() {
+    public double getHeight() {
         return height;
     }
 
-    public String getWeight() {
+    public double getWeight() {
         return weight;
     }
 
