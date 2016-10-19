@@ -1,5 +1,7 @@
 package com.epam.alex.entity;
 
+import org.joda.money.Money;
+
 /**
  * Created by user on 14.10.2016.
  */
@@ -10,7 +12,7 @@ public class WeaponsDelivery {
     private String vendorCode;
     private boolean lobby;
     private String currency;
-    private double cost;
+    private Money cost;
     private String originCountry;
     private double length;
     private double width;
@@ -19,7 +21,7 @@ public class WeaponsDelivery {
 
 
     public WeaponsDelivery(int idNumber, String name, String vendorCode, boolean lobby, String currency,
-                    double cost, String originCountry, double length, double width, double height, double weight) {
+                           Money cost, String originCountry, double length, double width, double height, double weight) {
         this.idNumber = idNumber;
         this.name = name;
         this.vendorCode = vendorCode;
@@ -32,6 +34,7 @@ public class WeaponsDelivery {
         this.height = height;
         this.weight = weight;
     }
+
 
 
 
@@ -55,7 +58,7 @@ public class WeaponsDelivery {
         return currency;
     }
 
-    public double getCost() {
+    public Money getCost() {
         return cost;
     }
 
