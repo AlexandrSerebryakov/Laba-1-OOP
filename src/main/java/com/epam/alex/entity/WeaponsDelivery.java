@@ -2,6 +2,8 @@ package com.epam.alex.entity;
 
 import org.joda.money.Money;
 
+import java.util.Locale;
+
 /**
  * Created by Alexandr Serebryakov on 14.10.2016.
  */
@@ -12,7 +14,7 @@ public class WeaponsDelivery {
     private String vendorCode;
     private boolean lobby;
     private Money currencyAndCost;
-    private String originCountry;
+    private Locale originCountry;
     private double length;
     private double width;
     private double height;
@@ -20,7 +22,7 @@ public class WeaponsDelivery {
 
 
     public WeaponsDelivery(int idNumber, String name, String vendorCode, boolean lobby,
-                           Money currencyAndCost, String originCountry, double length, double width, double height, double weight) {
+                           Money currencyAndCost, Locale originCountry, double length, double width, double height, double weight) {
         this.idNumber = idNumber;
         this.name = name;
         this.vendorCode = vendorCode;
@@ -32,8 +34,6 @@ public class WeaponsDelivery {
         this.height = height;
         this.weight = weight;
     }
-
-
 
 
     public int getIdNumber() {
@@ -56,7 +56,7 @@ public class WeaponsDelivery {
         return currencyAndCost;
     }
 
-    public String getOriginCountry() {
+    public Locale getOriginCountry() {
         return originCountry;
     }
 
@@ -75,7 +75,6 @@ public class WeaponsDelivery {
     public double getWeight() {
         return weight;
     }
-
 
 
 }
