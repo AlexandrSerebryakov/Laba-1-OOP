@@ -1,14 +1,13 @@
 package com.epam.alex.entity;
 
-import org.joda.money.CurrencyUnit;
 import org.joda.money.Money;
 
 /**
  * Created by Alexandr Serebryakov on 12.10.2016.
  */
 public class HeavyMilitaryTechnique extends WeaponryTechnique {
-    public HeavyMilitaryTechnique(int idNumber, String name, String vendorCode, boolean lobby, CurrencyUnit currency,
-                                  Money cost, String originCountry, double length, double width, double height, double weight) {
-        super(idNumber, name, vendorCode, lobby, currency, cost, originCountry, length, width, height, weight);
+    public HeavyMilitaryTechnique(int idNumber, String name, String vendorCode, boolean lobby, Money currencyAndCost,
+                                  String originCountry, double length, double width, double height, double weight) {
+        super(idNumber, name, vendorCode, lobby, currencyAndCost, originCountry, length, width, height, weight);
     }
 }

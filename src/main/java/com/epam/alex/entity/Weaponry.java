@@ -1,6 +1,5 @@
 package com.epam.alex.entity;
 
-import org.joda.money.CurrencyUnit;
 import org.joda.money.Money;
 
 /**
@@ -8,8 +7,8 @@ import org.joda.money.Money;
  */
 public abstract class Weaponry extends WeaponsDelivery {
 
-    public Weaponry(int idNumber, String name, String vendorCode, boolean lobby, CurrencyUnit currency, Money cost,
+    public Weaponry(int idNumber, String name, String vendorCode, boolean lobby, Money currencyAndCost,
                     String originCountry, double length, double width, double height, double weight) {
-        super(idNumber, name, vendorCode, lobby, currency, cost, originCountry, length, width, height, weight);
+        super(idNumber, name, vendorCode, lobby, currencyAndCost, originCountry, length, width, height, weight);
     }
 }

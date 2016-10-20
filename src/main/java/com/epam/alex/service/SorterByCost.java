@@ -6,6 +6,4 @@ package com.epam.alex.service;
 public class SorterByCost {
 
 
-
-
 }
