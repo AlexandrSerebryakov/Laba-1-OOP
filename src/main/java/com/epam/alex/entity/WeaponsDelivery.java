@@ -1,9 +1,10 @@
 package com.epam.alex.entity;
 
+import org.joda.money.CurrencyUnit;
 import org.joda.money.Money;
 
 /**
- * Created by user on 14.10.2016.
+ * Created by Alexandr Serebryakov on 14.10.2016.
  */
 public class WeaponsDelivery {
 
@@ -11,7 +12,7 @@ public class WeaponsDelivery {
     private String name;
     private String vendorCode;
     private boolean lobby;
-    private String currency;
+    private CurrencyUnit currency;
     private Money cost;
     private String originCountry;
     private double length;
@@ -20,13 +21,13 @@ public class WeaponsDelivery {
     private double weight;
 
 
-    public WeaponsDelivery(int idNumber, String name, String vendorCode, boolean lobby, String currency,
+    public WeaponsDelivery(int idNumber, String name, String vendorCode, boolean lobby, CurrencyUnit currency,
                            Money cost, String originCountry, double length, double width, double height, double weight) {
         this.idNumber = idNumber;
         this.name = name;
         this.vendorCode = vendorCode;
         this.lobby = lobby;
-        this.currency = currency;
+        this.currency = CurrencyUnit.USD;
         this.cost = cost;
         this.originCountry = originCountry;
         this.length = length;
@@ -54,7 +55,7 @@ public class WeaponsDelivery {
         return lobby;
     }
 
-    public String getCurrency() {
+    public CurrencyUnit getCurrency() {
         return currency;
     }
 
